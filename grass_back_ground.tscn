@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmj1gna55ai03"]
+
+[ext_resource type="Texture2D" uid="uid://bt16scr26jeol" path="res://city_ground.tres" id="1_4kqit"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rp1sj"]
+atlas = ExtResource("1_4kqit")
+
+[node name="GrassBackGround" type="Parallax2D"]
+repeat_size = Vector2(480, 270)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 480.0
+offset_bottom = 272.0
+texture = SubResource("AtlasTexture_rp1sj")

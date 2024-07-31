@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bt16scr26jeol"]
+
+[ext_resource type="Texture2D" uid="uid://qepruy7xsb0v" path="res://Sprites/Terrain/FDR_Ground_Tiles.png" id="1_tfwpm"]
+
+[resource]
+atlas = ExtResource("1_tfwpm")
+region = Rect2(16, 16, 16, 16)
