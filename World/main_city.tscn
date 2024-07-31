@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://c2300yfkqfiv7"]
 
 [ext_resource type="PackedScene" uid="uid://dgd2lyg3nhx85" path="res://BattleUnit/Player.tscn" id="1_d2ok0"]
-[ext_resource type="PackedScene" uid="uid://dmj1gna55ai03" path="res://grass_back_ground.tscn" id="2_07axe"]
+[ext_resource type="PackedScene" uid="uid://dmj1gna55ai03" path="res://World/grass_back_ground.tscn" id="2_07axe"]
 
 [node name="MainCity" type="Node2D"]
 
