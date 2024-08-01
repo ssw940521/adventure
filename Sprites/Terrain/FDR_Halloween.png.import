@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bj6abvtgd3i38"
-path="res://.godot/imported/FDR_Ground_Tiles.png-5576353a6ac9d4957f3144ac7c5bcd23.ctex"
+uid="uid://7liyr0n7ijwb"
+path="res://.godot/imported/FDR_Halloween.png-a0c000cc6cd0f50d8abbb2c9dc6999f2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Terrain/FDR_Ground_Tiles.png"
-dest_files=["res://.godot/imported/FDR_Ground_Tiles.png-5576353a6ac9d4957f3144ac7c5bcd23.ctex"]
+source_file="res://Sprites/Terrain/FDR_Halloween.png"
+dest_files=["res://.godot/imported/FDR_Halloween.png-a0c000cc6cd0f50d8abbb2c9dc6999f2.ctex"]
 
 [params]
 

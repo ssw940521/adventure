@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bj6abvtgd3i38"
-path="res://.godot/imported/FDR_Ground_Tiles.png-5576353a6ac9d4957f3144ac7c5bcd23.ctex"
+uid="uid://dsado1hndhwx4"
+path="res://.godot/imported/FDR_Overworld.png-edde6d584d7b2af5934f09ef337b016f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Terrain/FDR_Ground_Tiles.png"
-dest_files=["res://.godot/imported/FDR_Ground_Tiles.png-5576353a6ac9d4957f3144ac7c5bcd23.ctex"]
+source_file="res://Sprites/Terrain/FDR_Overworld.png"
+dest_files=["res://.godot/imported/FDR_Overworld.png-edde6d584d7b2af5934f09ef337b016f.ctex"]
 
 [params]
 

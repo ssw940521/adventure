@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bj6abvtgd3i38"
-path="res://.godot/imported/FDR_Ground_Tiles.png-5576353a6ac9d4957f3144ac7c5bcd23.ctex"
+uid="uid://bu8emy67c4l4y"
+path="res://.godot/imported/FDR_Blacksmith.png-99ccf77d5c83bd33f7a5a3e7f69cdf2c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Terrain/FDR_Ground_Tiles.png"
-dest_files=["res://.godot/imported/FDR_Ground_Tiles.png-5576353a6ac9d4957f3144ac7c5bcd23.ctex"]
+source_file="res://Sprites/Terrain/FDR_Blacksmith.png"
+dest_files=["res://.godot/imported/FDR_Blacksmith.png-99ccf77d5c83bd33f7a5a3e7f69cdf2c.ctex"]
 
 [params]
 

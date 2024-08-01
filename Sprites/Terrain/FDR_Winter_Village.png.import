@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bj6abvtgd3i38"
-path="res://.godot/imported/FDR_Ground_Tiles.png-5576353a6ac9d4957f3144ac7c5bcd23.ctex"
+uid="uid://dgjv421avwywf"
+path="res://.godot/imported/FDR_Winter_Village.png-949332809af23171ac067055b5f6b16c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Terrain/FDR_Ground_Tiles.png"
-dest_files=["res://.godot/imported/FDR_Ground_Tiles.png-5576353a6ac9d4957f3144ac7c5bcd23.ctex"]
+source_file="res://Sprites/Terrain/FDR_Winter_Village.png"
+dest_files=["res://.godot/imported/FDR_Winter_Village.png-949332809af23171ac067055b5f6b16c.ctex"]
 
 [params]
 

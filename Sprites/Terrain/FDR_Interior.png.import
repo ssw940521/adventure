@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bj6abvtgd3i38"
-path="res://.godot/imported/FDR_Ground_Tiles.png-5576353a6ac9d4957f3144ac7c5bcd23.ctex"
+uid="uid://d3rn4egw4yk2f"
+path="res://.godot/imported/FDR_Interior.png-f3c7b066d1beda00d37125de8a264aae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Terrain/FDR_Ground_Tiles.png"
-dest_files=["res://.godot/imported/FDR_Ground_Tiles.png-5576353a6ac9d4957f3144ac7c5bcd23.ctex"]
+source_file="res://Sprites/Terrain/FDR_Interior.png"
+dest_files=["res://.godot/imported/FDR_Interior.png-f3c7b066d1beda00d37125de8a264aae.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bj6abvtgd3i38"
-path="res://.godot/imported/FDR_Ground_Tiles.png-5576353a6ac9d4957f3144ac7c5bcd23.ctex"
+uid="uid://dda4n783efyt2"
+path="res://.godot/imported/FDR_Christmas.png-c8ff9b98123df0a45d8979885c0d9017.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Terrain/FDR_Ground_Tiles.png"
-dest_files=["res://.godot/imported/FDR_Ground_Tiles.png-5576353a6ac9d4957f3144ac7c5bcd23.ctex"]
+source_file="res://Sprites/Terrain/FDR_Christmas.png"
+dest_files=["res://.godot/imported/FDR_Christmas.png-c8ff9b98123df0a45d8979885c0d9017.ctex"]
 
 [params]
 
