@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://cj6xi55xm3ow5"]
+
+[ext_resource type="PackedScene" uid="uid://dln3v1wkisiff" path="res://World/map.tscn" id="1_4eok4"]
+
+[node name="Map" instance=ExtResource("1_4eok4")]
+
+[node name="Grass" parent="." index="0"]
+tile_map_data = PackedByteArray()
+
+[node name="Plants" parent="." index="1"]
+tile_map_data = PackedByteArray()
+
+[node name="Terrain" parent="." index="3"]
+tile_map_data = PackedByteArray()

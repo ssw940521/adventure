@@ -8,12 +8,13 @@ func get_input():
 	velocity = input_direction * speed
 
 func _physics_process(delta):
+	pass
 	get_input()
-	move_and_slide()
-	if is_moving():
-		animate_walk()
-	else:
-		animate_idle()
+	#move_and_slide()
+	#if is_moving():
+		#animate_walk()
+	#else:
+		#animate_idle()
 	
 func animate_walk() -> void:
 	var angle : float = velocity.angle()
@@ -45,8 +46,3 @@ func animate_idle() -> void:
 		"walk_left":
 			animation_player.play("idle_left")
 			animation_play = "idle_left"
-	#match animated_sprite.animation:
-		#"WalkLeft": animated_sprite.animation = "IdleLeft"
-		#"WalkRight": animated_sprite.animation = "IdleRight"
-		#"WalkUp": animated_sprite.animation = "IdleUp"
-		#"WalkDown": animated_sprite.animation = "IdleDown"

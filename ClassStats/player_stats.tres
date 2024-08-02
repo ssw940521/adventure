@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ClassStats" load_steps=2 format=3 uid="uid://c47fxly6es2s6"]
+
+[ext_resource type="Script" path="res://ClassStats/ClassStats.gd" id="1_2afl5"]
+
+[resource]
+script = ExtResource("1_2afl5")
+name = ""
+max_health = 0
+attack = 0
+defense = 0
+battle_actions = Array[Resource]([])

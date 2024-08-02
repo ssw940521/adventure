@@ -1,7 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://dgd2lyg3nhx85"]
+[gd_scene load_steps=13 format=3 uid="uid://dgd2lyg3nhx85"]
 
 [ext_resource type="Script" path="res://BattleUnit/player.gd" id="1_ubx2a"]
 [ext_resource type="Texture2D" uid="uid://ddnj4hgag7isq" path="res://Sprites/Character/Hero_09.png" id="2_tmdk3"]
+[ext_resource type="Script" path="res://ClassStats/StateMachineManager.gd" id="3_lfs8k"]
+[ext_resource type="Script" path="res://ClassStats/Run.gd" id="4_f7g0n"]
+[ext_resource type="Script" path="res://ClassStats/Idle.gd" id="5_cb7kp"]
 
 [sub_resource type="Animation" id="Animation_2iguy"]
 length = 0.001
@@ -187,3 +190,12 @@ rotation = 1.5708
 shape = SubResource("CapsuleShape2D_mlk1f")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="StateMachineManager" type="Node" parent="."]
+script = ExtResource("3_lfs8k")
+
+[node name="Idle" type="Node" parent="StateMachineManager"]
+script = ExtResource("5_cb7kp")
+
+[node name="Run" type="Node" parent="StateMachineManager"]
+script = ExtResource("4_f7g0n")
