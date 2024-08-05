@@ -1,7 +1,7 @@
 extends BaseState
 
 @onready var animation_player: AnimationPlayer = $"../../AnimationPlayer"
-@onready var player: CharacterBody2D = $"../.."
+@onready var player: BattleUnit = $"../.."
 
 func process_state() -> void:
 	animate_idle()
