@@ -7,6 +7,9 @@ func process_state() -> void:
 	animate_idle()
 	if player.velocity != Vector2.ZERO:
 		get_parent().changeState(1)
+	if Input.is_action_just_pressed("attack"):
+		get_viewport().set_input_as_handled()
+		get_parent().changeState(2)
 
 func enter() -> void:
 	print("Idle!")

@@ -6,6 +6,9 @@ func process_state() -> void:
 	animate_walk()
 	if player.velocity == Vector2.ZERO:
 		get_parent().changeState(0)
+	if Input.is_action_pressed("attack"):
+		get_viewport().set_input_as_handled()
+		get_parent().changeState(2)
 	player.move_and_slide()
 
 func enter() -> void:
