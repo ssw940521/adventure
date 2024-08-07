@@ -1,10 +1,11 @@
-[gd_scene load_steps=20 format=3 uid="uid://dgd2lyg3nhx85"]
+[gd_scene load_steps=21 format=3 uid="uid://dgd2lyg3nhx85"]
 
 [ext_resource type="Script" path="res://BattleUnit/player.gd" id="1_ubx2a"]
 [ext_resource type="Resource" uid="uid://c47fxly6es2s6" path="res://ClassStats/player_stats.tres" id="2_e6ppl"]
 [ext_resource type="Texture2D" uid="uid://ddnj4hgag7isq" path="res://Sprites/Character/Hero_09.png" id="2_tmdk3"]
 [ext_resource type="Script" path="res://ClassStats/StateMachineManager.gd" id="3_lfs8k"]
 [ext_resource type="Script" path="res://ClassStats/Run.gd" id="4_f7g0n"]
+[ext_resource type="Script" path="res://BattleUnit/overworld_camera.gd" id="4_jcqbb"]
 [ext_resource type="Script" path="res://ClassStats/Idle.gd" id="5_cb7kp"]
 [ext_resource type="PackedScene" uid="uid://cvoejjibjtf3m" path="res://BattleUnit/Hitbox.tscn" id="6_56nxe"]
 [ext_resource type="Script" path="res://ClassStats/Attack.gd" id="7_8i70a"]
@@ -310,6 +311,7 @@ y_sort_enabled = true
 collision_mask = 2
 motion_mode = 1
 script = ExtResource("1_ubx2a")
+speed = 50
 stats = ExtResource("2_e6ppl")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -331,7 +333,11 @@ position = Vector2(-1, 1)
 rotation = 1.5708
 shape = SubResource("CapsuleShape2D_mlk1f")
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="OverworldCamera" type="Camera2D" parent="."]
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+editor_draw_limits = true
+script = ExtResource("4_jcqbb")
 
 [node name="StateMachineManager" type="Node" parent="."]
 script = ExtResource("3_lfs8k")
@@ -346,6 +352,7 @@ script = ExtResource("4_f7g0n")
 script = ExtResource("7_8i70a")
 
 [node name="Marker2D" type="Marker2D" parent="."]
+visible = false
 position = Vector2(-10, -1)
 
 [node name="Hitbox" parent="Marker2D" instance=ExtResource("6_56nxe")]

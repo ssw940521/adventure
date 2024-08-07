@@ -15,6 +15,10 @@ run/main_scene="res://World/main_city.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Events="*res://World/Events.gd"
+
 [debug]
 
 gdscript/warnings/untyped_declaration=1

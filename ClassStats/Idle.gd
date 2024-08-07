@@ -11,12 +11,6 @@ func process_state() -> void:
 		get_viewport().set_input_as_handled()
 		get_parent().changeState(2)
 
-func enter() -> void:
-	print("Idle!")
-	#animate_idle()
-	
-	
-	
 
 func animate_idle() -> void:
 	match get_parent().data[BaseState.DIRECTION]:

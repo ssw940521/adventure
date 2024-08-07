@@ -11,9 +11,7 @@ func process_state() -> void:
 		get_parent().changeState(2)
 	player.move_and_slide()
 
-func enter() -> void:
-	print("Run!")
-	
+
 	
 func get_input():
 	var input_direction = Input.get_vector("left", "right", "up", "down")
